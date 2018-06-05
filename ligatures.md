@@ -1,6 +1,6 @@
 # Ligatures and Stacks
 
-Similar to the issues in [Private range]('./private-range.md), developers and designers have great power to create their own font faces and apply them to replace text with glyphs.
+Similar to the issues in [Private range](./private-range.md), developers and designers have great power to create their own font faces and apply them to replace text with glyphs.
 
 Ligatures can be a better alternative for screen readers because the word "map" gets converted into an image of a map. Since the page gets progressively enhanced to replace the text with a glyph, it should even survive an external translation (like from a browser/plugin). The image will be lost, but the meaning will still be there and a screen reader won't get tripped up.
 

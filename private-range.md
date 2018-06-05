@@ -5,7 +5,7 @@ Some ranges of unicode are assigned for private use or yet to be assigned. This 
 Testing for the private range is simple:
 
 ```js
-`/[\uf0000-\uffffd]|[\u100000–\u10fffd]/.test(element.textContent)`;
+/[\uf0000-\uffffd]|[\u100000–\u10fffd]/.test(element.textContent);
 ```
 
 However, testing for unassigned codes may be trickier (and again, ever changing).
